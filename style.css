@@ -3,3 +3,14 @@ https://pt.wix.com/website-template/view/html/2622?originUrl=https%3A%2F%2Fpt.wi
 https://pt.wix.com/website-template/view/html/2312?originUrl=https%3A%2F%2Fpt.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fportfolio-cv%2Fpersonal&tpClick=view_button&esi=33305979-af8e-4565-92d4-ed3e0a05f913
  */
 
+ *{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ h1{
+    font-size: 25px;
+    font-weight: 600;
+ }
