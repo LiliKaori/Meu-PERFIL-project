@@ -10,7 +10,42 @@ https://pt.wix.com/website-template/view/html/2312?originUrl=https%3A%2F%2Fpt.wi
     font-family: 'Poppins', sans-serif;
 }
 
+header{
+   padding: 20px;
+   width: 100%;
+   
+}
+
+name{
+   display: inline-block;
+   width: 300px;
+
+}
+
  h1{
     font-size: 25px;
     font-weight: 600;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+ h4{
+   font-size: 17px;
+   font-weight: 200;
+   margin: 0 10px;
+   display: inline-block;
+ }
+
+ .Navigation{
+   list-style: none;
+   padding: 0;
+   display: inline-block;
+   font-size: 17px;
+   font-weight: 200;
+   
+ }
+
+ .Nav{
+   display: inline-block;
+   margin-right: 20px;
  }
