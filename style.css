@@ -47,18 +47,18 @@ h4 {
 
 .Nav {
   display: inline-block;
-  cursor: pointer;
 }
 
 a{
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .Nav:hover {
   font-weight: bold;
 }
 
-section{
+sectionAboutMe{
   padding: 0 20px 20px;
 }
 
@@ -67,7 +67,7 @@ section{
   height: 400px;
   display: inline-block;
   background-color: #ffe8e5;
-  
+  filter: drop-shadow(0 1px 4px rgba(0,0,0,.6));
 }
 
 .circleImage{
@@ -80,23 +80,28 @@ section{
   margin: 20px 50px;
 }
 
-.contact{
+#contact{
   width: 300px;
   height: 70px;
   margin-top: 30px;
   padding: 30px 40px;
   background-color: white;
-
 }
 
 .mainRight{
   display: inline-block;
-  width: 450px;
-  margin: 20px;
+  width: 400px;
+  margin: 0 20px;
 }
 
 .Hi{
   font-size: 100px;
   font-weight: 600;
-  margin: 25px 0;
+  margin: 20px 0;
+}
+
+h2{
+  font-size: 25px;
+  font-weight: 400;
+  margin: 20px 0;
 }
