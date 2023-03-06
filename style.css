@@ -52,10 +52,16 @@ h4 {
 a{
   margin-right: 20px;
   cursor: pointer;
+  text-decoration: none;
 }
 
-.Nav:hover {
-  font-weight: bold;
+a:hover{
+  opacity: 0.9;
+  color:blue;
+}
+
+a:active{
+  opacity: 0.7;
 }
 
 sectionAboutMe{
@@ -88,6 +94,10 @@ sectionAboutMe{
   background-color: white;
 }
 
+.contactIcon{
+  width: 30px;
+}
+
 .mainRight{
   display: inline-block;
   width: 400px;
@@ -104,4 +114,26 @@ h2{
   font-size: 25px;
   font-weight: 400;
   margin: 20px 0;
+}
+
+sectionCurriculum{
+  padding: 0 20px 20px;
+  border: 1px solid #000000;
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.language{
+  border: 1px solid red;
+  display:inline-block;
+  position: absolute;
+  right: 0;
+  margin: 50px;
+  
+}
+
+.languageIcon{
+  width: 30px;
+  line-height: 5px;
 }
