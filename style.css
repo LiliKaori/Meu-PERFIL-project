@@ -121,7 +121,7 @@ sectionAboutMe{
 
 .mainRight{
   display: inline-block;
-  width: 400px;
+  width: 60%;
   margin: 0 20px;
 }
 
@@ -217,7 +217,26 @@ sectionCurriculum{
   background-size: 100%;
 }
 
+#imgForm1{
+  background-image: url(./img/DevClub.png);
+  background-size: 100%;
+}
 
+#imgForm2{
+  background-image: url(./img/USP.png);
+  background-size: 100%;
+}
+
+#imgForm3{
+  background-image: url(./img/liec.jpg);
+  background-size: 100%;
+}
+
+#imgForm4{
+  background-image: url(./img/UFSCAR.png);
+  
+  background-size: 100%;
+}
 
 .boxRight{
   height: 300px;
