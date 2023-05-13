@@ -29,6 +29,9 @@ header {
   position: fixed;
   top: 0;
   z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 
@@ -69,6 +72,7 @@ a{
   cursor: pointer;
   text-decoration: none;
   color: inherit;
+  font-weight: bold;
 }
 
 a:hover{
@@ -275,10 +279,27 @@ iframe{
   filter: drop-shadow(0 1px 4px rgba(0,0,0,.6));
 }
 
+.articlePoster{
+  display: flex;
+  gap: 20px;
+}
+
+.coursesEvents{
+  display: flex;
+  gap: 20px;
+}
+
+.projects{
+  display: flex;
+  justify-content: center;
+
+}
 .slider{  
-  width: 500px;
+  width: 750px;
   text-align: center;
   overflow: hidden;
+  filter: drop-shadow(0 1px 4px rgba(0,0,0,.6));
+  border-radius: 15px;
 }
 
 .checkSlide{
@@ -303,8 +324,7 @@ iframe{
   scroll-snap-type: x mandatory;
 }
 
-.slides::-webkit-scrollbar{
-  /* display: none; */
+.slides::-webkit-scrollbar{  
   width: 20px;
   height: 20px;
 }
@@ -321,8 +341,8 @@ iframe{
 
 .slide{
   flex-shrink: 0;
-  width: 500px;
-  height: 300px;
+  width: 750px;
+  height: 450px;
   border-radius: 10px;
   background-color: #eeeeee;
   font-size: 100px;  
