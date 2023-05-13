@@ -16,19 +16,21 @@
 <body>
     <header>
         <name>
+            <a href="#">
             <h1><strong>Liliam Kaori Yamada</strong></h1>
             <h4>Desenvolvedora Front-End</h4>
+            </a>
         </name>
         <ul class="Navigation">
-            <li class="Nav"><a href="#aboutMe">Sobre mim</a></li>
+            <li class="Nav"><a href="#">Sobre mim</a></li>
             <li class="Nav"><a href="#curriculum">Currículo</a></li>
             <li class="Nav"><a href="#portfolio">Portfólio</a></li>
-            <li class="Nav"><a href="#contact">Contato</a></li>
+            <li class="Nav"><a href="#">Contato</a></li>
         </ul>
     </header>
-    <div id="aboutMe"></div>
+    
     <main>
-        <sectionAboutMe>
+        <sectionAboutMe id="aboutMe">
             <div class="mainLeft">
                 <div class="circleImage"></div>
                 <name>
@@ -57,9 +59,80 @@
             </div>
         </sectionAboutMe>
 
+        <div class="empty" id="portfolio"></div>
+        <sectionPotfolio>
+            <h1>Portfólio</h1>
 
+            <h2>Projetos</h2>
+
+            <div class="slider">                
+                <a class="checkSlide" href="#slide-1">1</a>
+                <a class="checkSlide" href="#slide-2">2</a>
+                <a class="checkSlide" href="#slide-3">3</a>
+                <a class="checkSlide" href="#slide-4">4</a>
+                <a class="checkSlide" href="#slide-5">5</a>
+                
+                <div class="slides">
+                    <div class="slide" id="slide-1">1</div>
+                    <div class="slide" id="slide-2">2</div>
+                    <div class="slide" id="slide-3">3</div>
+                    <div class="slide" id="slide-4">4</div>
+                    <div class="slide" id="slide-5">5</div>
+                    
+                </div>
+            </div>
+
+            <h2>Publicações</h2>
+            <h3>Vídeo</h3>
+            <div class="wrapVideo">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/gTieLY_rVfw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/koMUPRlIPbI"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+
+            <h3>Artigos Publicados</h3>
+            <ul class="topicList">
+                <li class="topic"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cnma.201600049"
+                        target="_blank"><b>ChemNanoMat 2016</b></a> Bimetallic Au@Pd-Au Tadpole-Shaped Asymmetric
+                    Nanostructures by a Combination of Precursor Reduction and
+                    Ostwald Ripening.</li>
+                <li class="topic"><a href="https://pubs.acs.org/doi/10.1021/acs.langmuir.5b02838"
+                        target="_blank"><b>Langmuir 2015</b></a>The Fault in Their Shapes:
+                    Investigating
+                    the Surface-Plasmon-Resonance-Mediated Catalytic Activities of Silver Quasi-Spheres, Cubes,
+                    Triangular
+                    Prisms, and Wires.</li>
+            </ul>
+
+
+
+            <h3>Apresentação de Trabalho</h3>
+            <ul class="topicList">
+                <li class="topic"><b>XIV SBPMat 2015 Pôster</b> Shape controlled Pd nanocrystals as templates for
+                    bimetallic nanostructures containing Au and Ag.</li>
+                <li class="topic"><b>MRS Spring 2013 Pôster</b> Effect of Rare Earth Modified LeadZirconate Titanate
+                    Prepared by Oxidant Peroxo Method (OPM).</li>
+                <li class="topic"><b>XI SBPMat 2012 Pôster</b> Morphologic treatment of PZT and rare earth modified
+                    powders prepared by the oxidant peroxo method.
+                </li>
+                <li class="topic"><b>X SBPMat 2011 Pôster</b> Synthesis of PT and PZT powders by the OPM method analyzed
+                    by Raman spectroscopy and X-ray diffraction.
+                </li>
+                <li class="topic"><b>9ª Jornada Científica e Tecnológica da UFSCar 2011 Pôster</b> Otimização dos pós
+                    cerâmicos de PZT sintetizada pelo método OPM e seu efeito nas propriedades na concentração de
+                    lantânio.
+                </li>
+            </ul>
+        </sectionPotfolio>
+
+        <div class="empty" id="curriculum"></div>
         <sectionCurriculum>
-            <h1 id="curriculum">Currículo</h1>
+            <h1 >Currículo</h1>
             <h2>Experiência Profissional</h2>
 
 
@@ -203,77 +276,6 @@
             </ul>
         </sectionCurriculum>
 
-
-        <sectionPotfolio>
-            <h1 id="portfolio">Portfólio</h1>
-            <h2>Publicações</h2>
-            <h3>Vídeo</h3>
-            <div class="wrapVideo">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/gTieLY_rVfw"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/koMUPRlIPbI"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-            </div>
-
-            <h3>Artigos Publicados</h3>
-            <ul class="topicList">
-                <li class="topic"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cnma.201600049"
-                        target="_blank"><b>ChemNanoMat 2016</b></a> Bimetallic Au@Pd-Au Tadpole-Shaped Asymmetric
-                    Nanostructures by a Combination of Precursor Reduction and
-                    Ostwald Ripening.</li>
-                <li class="topic"><a href="https://pubs.acs.org/doi/10.1021/acs.langmuir.5b02838"
-                        target="_blank"><b>Langmuir 2015</b></a>The Fault in Their Shapes:
-                    Investigating
-                    the Surface-Plasmon-Resonance-Mediated Catalytic Activities of Silver Quasi-Spheres, Cubes,
-                    Triangular
-                    Prisms, and Wires.</li>
-            </ul>
-
-
-
-            <h3>Apresentação de Trabalho</h3>
-            <ul class="topicList">
-                <li class="topic"><b>XIV SBPMat 2015 Pôster</b> Shape controlled Pd nanocrystals as templates for
-                    bimetallic nanostructures containing Au and Ag.</li>
-                <li class="topic"><b>MRS Spring 2013 Pôster</b> Effect of Rare Earth Modified LeadZirconate Titanate
-                    Prepared by Oxidant Peroxo Method (OPM).</li>
-                <li class="topic"><b>XI SBPMat 2012 Pôster</b> Morphologic treatment of PZT and rare earth modified
-                    powders prepared by the oxidant peroxo method.
-                </li>
-                <li class="topic"><b>X SBPMat 2011 Pôster</b> Synthesis of PT and PZT powders by the OPM method analyzed
-                    by Raman spectroscopy and X-ray diffraction.
-                </li>
-                <li class="topic"><b>9ª Jornada Científica e Tecnológica da UFSCar 2011 Pôster</b> Otimização dos pós
-                    cerâmicos de PZT sintetizada pelo método OPM e seu efeito nas propriedades na concentração de
-                    lantânio.
-                </li>
-            </ul>
-
-            <h2>Projetos</h2>
-
-            <div class="slider">                
-                <a class="checkSlide" href="#slide-1">1</a>
-                <a class="checkSlide" href="#slide-2">2</a>
-                <a class="checkSlide" href="#slide-3">3</a>
-                <a class="checkSlide" href="#slide-4">4</a>
-                <a class="checkSlide" href="#slide-5">5</a>
-                
-                <div class="slides">
-                    <div class="slide" id="slide-1">1</div>
-                    <div class="slide" id="slide-2">2</div>
-                    <div class="slide" id="slide-3">3</div>
-                    <div class="slide" id="slide-4">4</div>
-                    <div class="slide" id="slide-5">5</div>
-                    
-                </div>
-            </div>
-
-            
-        </sectionPotfolio>
         <div class="language">
             <h2>Idiomas</h2>
             <div class="languageItem">
