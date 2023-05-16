@@ -11,5 +11,5 @@
 <br>
 Atualmente incluindo o conteúdo do site em um banco de dados em JSON que são importados dinamicamente em JavaScript com a manipulação da DOM.
 <br>
-<img src="./img/displayDesktop.png" alt="layoutSite">
 <br>
+<img src="./img/displayDesktop.png" alt="layoutSite">
