@@ -7,8 +7,9 @@
 
 <p> Site de portfólio em constante atualização e melhoria onde serão encontrados informações sobre minha formação, experiência, portfólio, publicações, redes sociais e contatos </p>
 <br>
-<p> O objetivo do projeto é para praticar as tecnologias aprendidas no DevClub e oferecer um website onde encontre de forma clara sobre mim e publicação de trabalhos realizados.</p>
+<p> O objetivo do projeto é para praticar as tecnologias aprendidas no DevClub e oferecer um website onde encontre de forma clara sobre minha formação, experiências e trabalhos realizados.</p>
 <br>
 Atualmente incluindo o conteúdo do site em um banco de dados em JSON que são importados dinamicamente em JavaScript com a manipulação da DOM.
 <br>
 <img src="./img/displayDesktop.png" alt="layoutSite">
+<br>
