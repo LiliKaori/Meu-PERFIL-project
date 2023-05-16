@@ -1,0 +1,118 @@
+{
+    "formation":[
+        {
+            "id":1,
+            "name":"Formação Full Stack",
+            "education-institute":"DevClub",
+            "image":"./img/DevClub.png",
+            "initiation_year":"2023",
+            "conclusion_year":"ATUAL",
+            "description":"Curso de formação para se tornar um desenvolvedor Full Stack avançado com conhecimento de HTML, CSS, JavaScript, React, React Native, Node, Banco de dados relacionais e não relacionais e Docker."
+        },
+        {
+            "id":2,
+            "name":"Doutorado em Química",
+            "education-institute":"USP",
+            "image":"./img/USP.png",
+            "initiation_year":"2013",
+            "conclusion_year":"2018",
+            "description":"Bolsista CAPES, orientado pelo prof. Pedro Henrique Curi Camargo, pesquisa em síntese de nanopartículas com controle de forma de metais nobres como Paládio, Ouro e Prata e suas aplicações em catálise."
+        },
+        {
+            "id":3,
+            "name":"Mestrado em Química",
+            "education-institute":"UFSCar",
+            "image":"./img/liec.jpg",
+            "initiation_year":"2011",
+            "conclusion_year":"2013",
+            "description":"Bolsista Fapesp, orientado pelo prof. Emerson Camargo, pesquisa em síntese de cerâmicas piezoelétricas de Titanato Zirconato de chumbo modificadas com terras raras pelo método OPM."
+        },
+        {
+            "id":4,
+            "name":"Bacharelado em Química",
+            "education-institute":"UFSCar",
+            "image":"./img/UFSCAR.png",
+            "initiation_year":"2007",
+            "conclusion_year":"2011",
+            "description":"Bolsista Fapesp, pesquisa em síntese de cerâmicas piezoelétricas de Titanato Zirconato de chumbo pelo método OPM."
+        }
+    ],
+    "experience":[
+        {
+            "id":1,
+            "name":"Desenvolvedor Full Stack",
+            "company": "Freelancer",
+            "image":"./img/Freelancer.jpg",
+            "initiation_year":"2023",
+            "conclusion_year":"ATUAL",
+            "description":"Trabalho autônomo, onde realizo projetos de criação de websites responsivos, sistemas web e landing pages com a utilização de linguagens de HTML, CSS, JavaScript, Node.js e React.js."
+        },
+        {
+            "id":2,
+            "name":"CEO da Móveis Megumi",
+            "company": "Móveis Megumi",
+            "image":"./img/MóveisMegumi.png",
+            "initiation_year":"2017",
+            "conclusion_year":"2023",
+            "description":"Coordenação administrativa e financeira, controle de estoque, layout e disposição de produtos em loja física. Comunicação e relacionamento com fornecedores e clientes finais, venda B2C."
+        },
+        {
+            "id":3,
+            "name":"Monitor de Laboratório",
+            "company": "IQ-USP",
+            "image":"./img/laboratorio.png",
+            "initiation_year":"2014",
+            "conclusion_year":"2015",
+            "description":"Responsável em monitorar alunos de graduação nos experimentos de ensino, orientando em como manusear equipamentos laboratoriais bem como boas práticas de segurança e uso de EPIs. Auxilio didático para os alunos, estando disponível para esclarecer dúvidas."
+        }
+    ]
+    ,
+    "Skills":[
+        {}
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "name": "iPhone",
+            "image": "https://raw.githubusercontent.com/LiliKaori/Iphone-projectMVP/master/img/iphoneProjectFrame.gif",
+            "url": "https://lilikaori.github.io/Iphone-projectMVP/"
+
+        },
+        {
+            "id": "2",
+            "name": "Usuários",
+            "image": "https://raw.githubusercontent.com/LiliKaori/react-first-project/master/src/assets/DesktopUsersFrame.gif",
+            "url": "https://lilikaori.github.io/react-first-project/"
+            
+        },
+        {
+            "id": "3",
+            "name": "Easy Shopping",
+            "image": "./img/easyShoppingProject.png",
+            "url": "https://lilikaori.github.io/Easy-Shopping/"
+        },
+        {
+            "id": "4",
+            "name": "Dev Fitness",
+            "image": "https://raw.githubusercontent.com/LiliKaori/DevFitness/master/devFitness-display.gif",
+            "url": "https://lilikaori.github.io/DevFitness/"
+        },
+        {
+            "id": "5",
+            "name": "Wide Coverage",
+            "image": "./img/wideCoverageProject.png",
+            "url": "https://lilikaori.github.io/Wide-Coverage-Location/"
+        },
+        {
+            "id": "6",
+            "name": "We Care",
+            "image": "./img/weCareProject.png",
+            "url": "https://lilikaori.github.io/We-Care/"
+        }
+        
+        
+        
+        
+        
+    ]
+}

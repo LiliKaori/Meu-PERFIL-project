@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    
     <title>Liliam Kaori Yamada</title>
 </head>
 
@@ -35,7 +35,7 @@
                 <div class="circleImage"></div>
                 <name>
                     <h1>Liliam Kaori Yamada</h1>
-                    <h4>Desenvolvedora Front-End</h4>
+                    <h4>Desenvolvedora Full Stack</h4>
                 </name>
                 <div id="contact">
                     <a href="mailto:lilikaori10@gmail.com"><img class="contactIcon" src="./img/mail icon.png"></a>
@@ -155,7 +155,7 @@
                     <div class="boxLeft">
                         <div id="imgExp1" class="imgBox"></div>
                         <h3>2023-ATUAL</h3>
-                        <h4>Freelancer Desenvedor Front-End</h4>
+                        <h4>Freelancer Desenvedor Full Stack</h4>
                     </div>
                     <div class="boxRight">
                         <p>
@@ -199,60 +199,18 @@
 
             <h2>Formação Acadêmica</h2>
 
-            <div class="containerBox">
+            <div id="academicFormation" class="containerBox">
+                <!--  
                 <div class="box">
                     <div class="boxLeft">
-                        <div id="imgForm1" class="imgBox"></div>
-                        <h3>2023-ATUAL</h3>
-                        <h4>Formação Full Stack</h4>
+                        <div id="imgForm${data.id}" class="imgBox"></div>
+                        <h3>${data.initiation_year}-${data.conclusion_year}</h3>
+                        <h4>${data.name}</h4>
                     </div>
                     <div class="boxRight">
-                        <p>Curso de formação para se tornar um desenvolvedor Full Stack avançado
-                            com conhecimento de HTML, CSS, JavaScript, React, React Native, Node, Banco
-                            de dados relacionais e não relacionais e Docker. </p>
+                        <p>${data.description}</p>
                     </div>
-                </div>
-
-                <div class="box">
-                    <div class="boxLeft">
-                        <div id="imgForm2" class="imgBox"></div>
-                        <h3>2013-2018</h3>
-                        <h4>Doutorado em Química</h4>
-                    </div>
-                    <div class="boxRight">
-                        <p>Bolsista CAPES, orientado pelo prof. Pedro Henrique Curi Camargo, pesquisa em síntese de
-                            nanopartículas com controle de forma de metais nobres como Paládio, Ouro e Prata e suas
-                            aplicações em catálise.
-                        </p>
-                    </div>
-
-                </div>
-
-                <div class="box">
-                    <div class="boxLeft">
-                        <div id="imgForm3" class="imgBox"></div>
-                        <h3>2011-2013</h3>
-                        <h4>Mestrado em Química</h4>
-                    </div>
-                    <div class="boxRight">
-                        <p>Bolsista Fapesp, orientado pelo prof. Emerson Camargo, pesquisa em síntese de cerâmicas
-                            piezoelétricas de Titanato, Zirconato de chumbo.</p>
-                    </div>
-
-                </div>
-
-                <div class="box">
-                    <div class="boxLeft">
-                        <div id="imgForm4" class="imgBox"></div>
-                        <h3>2007-2011</h3>
-                        <h4>Bacharelado em Química</h4>
-                    </div>
-                    <div class="boxRight">
-                        <p>Bolsista Fapesp, pesquisa em síntese de cerâmicas piezoelétricas de Titanato, Zirconato de
-                            chumbo.</p>
-                    </div>
-
-                </div>
+                </div> -->               
             </div>
 
             <div class="coursesEvents">
@@ -311,5 +269,6 @@
         </div>
     </main>
 </body>
+<script src="./script.js"></script>
 
 </html>
