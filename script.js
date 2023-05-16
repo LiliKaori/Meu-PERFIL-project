@@ -1,9 +1,8 @@
-async function fetchData(){
+async function showData(){
     const data = await(await fetch("./data/db.json")).json()
-
-    function showFormation(){        
+            
         const dataFormations = data.formation    
-        const newBox= dataFormations.map(data=>(document.getElementById("academicFormation")
+        dataFormations.map(data=>(document.getElementById("academicFormation")
         .innerHTML+=`
         <div class="box">
             <div class="boxLeft">
@@ -16,27 +15,18 @@ async function fetchData(){
             </div>
         </div>
         `))
-    return newBox
-    }
-    showFormation()
 
-    function showProject (){        
         const dataProjects = data.projects    
-        const newSlides= dataProjects
-        .forEach(data=>document
+        dataProjects.forEach(data=>document
         .getElementById(`slide-${data.id}`)
         .innerHTML=`
         <img class="slideImage" src="${data.image}" alt="${data.name}">
         <p class="author-info">
             <a href="${data.url}" target="_blanck">${data.name}</a>
         </p>
-        `)     
-    return (newSlides)    
-    }
-    showProject()
-    
+        `)    
 }
-fetchData()
+showData()
 
 
 
